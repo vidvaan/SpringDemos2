@@ -1,0 +1,17 @@
+<!-- applicationContext.xml -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="helloWorld" class="com.ciq.bean.HelloWorldBean">
+		<property name="fname" value="Balaji"></property>
+		<property name="lname" value="G"></property>
+	</bean>
+
+	<bean id="welcome" class="com.ciq.bean.WelcomeBean">
+	    <constructor-arg value="Raja"></constructor-arg>
+	    <constructor-arg value="A"></constructor-arg>
+	</bean>
+
+</beans>
